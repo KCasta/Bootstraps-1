@@ -1,0 +1,51 @@
+body {
+  background-color: #f5cac3;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-primary:hover {
+  background-color: #000000df; /* Change to your desired hover color */
+  border-color: #fc0303; /* Optional: Change border color on hover */
+}
+.bg-image-cover {
+  background-image: url("./image/33ef8b9c0b902154a6cd4103a21275ef.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: scale(1.05);
+  transition: 2ms;
+} /* Add scale effect on hover */
+.rating {
+  display: inline-block;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  font-size: 25px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating label:before {
+  content: "★";
+}
+
+.rating input:checked ~ label {
+  color: #ffca08;
+}
+
+.rating:not(:checked) label:hover,
+.rating:not(:checked) label:hover ~ label {
+  color: #ffca08;
+}

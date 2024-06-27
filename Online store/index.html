@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="bg-image-cover">
+      <section>
+        <div class="container py-3">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><h3>MCK Cafe</h3></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Rate your Experience</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <!-- first page -->
+      <section class="py-5">
+        <div
+          class="container align-items-center d-flex justify-content-between"
+        >
+          <h1 class="text-black">
+            Get your delicious Drink
+            <br />
+            Great taste await you <br />
+            <button type="button" class="btn btn-dark">View Menu</button>
+          </h1>
+        </div>
+      </section>
+
+      <!-- prices -->
+      <section id="menu">
+        <div class="container">
+          <h2 class="text-center mb-4 text-dark">Our Menu</h2>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark text-light">
+                <img
+                  src="./image/8b818bf80623f5765ff4236d27990eaf.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">Smoothie</h5>
+                  <p class="card-text">
+                    This recipe is pretty classic in that it includes diced
+                    onions, peppers, garlic, and ground beef. Once the
+                    vegetables are softened and the meat is cooked, the pot is
+                    deglazed with red wine. From there, the base of the sauce is
+                    enhanced with tomato paste, seasonings, and some subtle
+                    flavor enhancers. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Consectetur, quibusdam.
+                  </p>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark text-light">
+                <img
+                  src="./image/ffa2e99ebb062bcf2f2834712ce8b8d0.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Coffee</h5>
+                  <p class="card-text">
+                    The basic ingredients of a good fish sauce are fish, water,
+                    and salt. Sometimes sugars such as caramel or molasses are
+                    added, or roasted rice, but it isn't necessary. Fish sauce
+                    is referred to as nam pla in Thailand, teuk trei in
+                    Cambodia, nam pa in Laos, patis in the Philippines, and ngan
+                    bya yay in Burma.
+                  </p>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card bg-dark text-light">
+                <img
+                  src="./image/c715b03ce4ed2cdd967eddd9f7a481fb.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Milk Shake</h5>
+                  <p class="card-text">
+                    The beef is ground and shaped into a patty. This patty is
+                    grilled and place d between the halves of a sesame seed bun.
+                    The process for making a burger from bison or turkey meat is
+                    similar. It our special symbol highly recommended Best out
+                    of our menu, Order and enjoy the sweetest of our symbol
+                  </p>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <!-- More cards for other dishes -->
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h3 class="text-dark">Our Most Popular Rate</h3>
+          <p>Please share your thought and your Experiences</p>
+          <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" />
+            <label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4" />
+            <label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3" />
+            <label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2" />
+            <label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1" />
+            <label for="star1"></label>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2 class="text-center text-dark mb-4">Contact Us</h2>
+
+          <footer class="text-dark text-center py-3">
+            <p>
+              &copy; 2024 Restaurant Name. All rights reserved 09039499569,
+              09045091027,09156567842.
+            </p>
+            <h2 class="text-center mb-4 text-dark">About Us</h2>
+            <p class="text-dark">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+              numquam beatae placeat corporis nemo ullam minima, iste ea,
+              inventore, cupiditate possimus deleniti perferendis hic officia
+              molestias eligendi at doloribus vero?
+            </p>
+          </footer>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
