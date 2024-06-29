@@ -20,32 +20,20 @@ body {
   transform: scale(1.05);
   transition: 2ms;
 } /* Add scale effect on hover */
+.card-img-top {
+  width: 414px;
+  height: 350px;
+}
 .rating {
   display: inline-block;
   unicode-bidi: bidi-override;
   direction: rtl;
+  size: 10cm;
 }
-
+.img-fluid {
+  width: 100px;
+  height: 100px;
+}
 .rating input {
   display: none;
-}
-
-.rating label {
-  float: right;
-  font-size: 25px;
-  color: #ccc;
-  cursor: pointer;
-}
-
-.rating label:before {
-  content: "★";
-}
-
-.rating input:checked ~ label {
-  color: #ffca08;
-}
-
-.rating:not(:checked) label:hover,
-.rating:not(:checked) label:hover ~ label {
-  color: #ffca08;
 }
